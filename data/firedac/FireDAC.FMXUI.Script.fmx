@@ -1,0 +1,261 @@
+inherited frmFDGUIxFMXfScript: TfrmFDGUIxFMXfScript
+  Left = 501
+  Top = 361
+  Caption = 'FireDAC Processing'
+  ClientHeight = 490
+  ClientWidth = 395
+  Left = 501
+  Top = 361
+  DesignerMobile = False
+  DesignerWidth = 0
+  DesignerHeight = 0
+  DesignerDeviceName = ''
+  DesignerOrientation = 0
+  inherited pnlTop: TPanel
+    Width = 389.000000000000000000
+    inherited Image2: TImage
+      Bitmap.PNG = {
+            89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+            F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            040D494441545847ED564D6F1B55143D3319CF78C676EA248D69F99C224183AA
+            AA8E5055D14D931D42880D624F248414098925EB8A1FD0566C80FF80101B5455
+            8278D745841AD20485049CC41F49FC117B6CCFF78C67B8337998AA2E495A21BA
+            F191AEDEF3B37DCF91EE3DEF5D8C30C208CF1B1C5B07D86FB7D566A5B2B4B1B1
+            A136EA755896058EE7914C2621B388F7B28CA49C84222B4867C6212B32142545
+            21431445E8BA8E52A98446A381C3560BBD6E77471084F98585851D46158367EB
+            00BEAEAB7BD5AABAB3BD8D62B1883F288AC53FE37DB1B88D6D3ADFDDDDC52E25
+            AF942BA89148DD3461D90E1CCF453F08E1B81E0CD38ACF7BBA854ECFA03055DB
+            B6D5F617175546156348C0C1C1018220609FFE3B8461084DD32937FF313B8A31
+            24E07FC06BEDCFAF64D9FEB908507DC1CFB3FDB000C1F777422F5CE1381EBEEF
+            C3716C98544F93EAF96858D651447B6AB038DCD23A9C9FBE46B7D341BD5EC3FE
+            DE3EAAD50AAA950A4CDB28BCABDD0597989C63543104B60E706E660642BAA21A
+            AE1977F4492E90C9053275FF78E93E320F7E443895C3F8D4244449C418FD2F7B
+            661CD3D353085AC5FC2B56788B13A6E01B1A637B820DCBE5F2DC6FEBEB4BABAB
+            ABA8D56A3048C018CF11A94CE464B5C87A4A44AA2045319112F1E6CE3D9CEDB5
+            10841C5C224F2DDCA186D3C829BBE894B6A06CDFC745AB82542205A35B269718
+            1317EEFC1AAB1812B0BCBC3CD76C3496D6D6D64E14301D7691AF1430994CC3B6
+            34047D17BE9484F8F225F8661761A709D977919032709D1E3CD78063B40BEA57
+            2BF38CEED99BF0A5FA035C2FFF8C6C4282D1D987EF90C5884C091310CA9B481E
+            1E40722D22D6D16B97E0986DB8B64122BC9B2C458CA71620042EAE55EEE19DA0
+            8990F67AA78A7EDF217FFB71987A6D10B6D982EF59F1B9E739302DE3E61BDFAC
+            1758AA18C32E108495BEE715FECD055DDBC79E27423B2C118146E4FE8961D936
+            7E09CE15EECE7C729BD10C30D40354F73CDD864B9B9B9BD9E3DE824CFD77BCB0
+            FA1D14DE03C70DA581DF0F883C44FBC559545FBD8E861D6AF4BFD9C7DF8227BA
+            60EDE1C353356146E4F1FAFAF7C8EA258C8D1DA5F2941C94ABEFA37FFE22F67C
+            1175CD44E3B049F7440F29599C5F5C5C3CBE04D15B705A0442128D1B8BE85DFE
+            00369526AAF5D8C4794CBEF7291217AE0092C27EF9CF5BF0389ED9058F22BCF6
+            21C28FBE842DE5E82E6087A7C4400029CC53CCE572B9C13DFD3410D4CB38F3D9
+            B7485EBAC14E86F1F6D5D99823E26247473DD0EFF76FE9BA958F6E2FD3ECE55B
+            AD56766B730B4DAA9D493D40EA90488814091A3612904409927414E94C1A1393
+            67D94042C3492A4DFDC0C3300CD46918E952ED7B349C7094E3AD99194D4EA756
+            A6B2D9E89AFF810697DBC3ED7B0C22E5345464237B46F87B8D9E14815E15B230
+            789ED748D80AFB628411463801C05F524E5F95211C34AE0000000049454E44AE
+            426082}
+    end
+    inherited lblPrompt: TLabel
+      Text = 'Please wait, application is processing SQL script'
+      Width = 275.000000000000000000
+    end
+    inherited Line1: TLine
+      Width = 389.000000000000000000
+    end
+    inherited Line3: TLine
+      Width = 389.000000000000000000
+    end
+  end
+  inherited pnlButtons: TPanel
+    Position.Y = 452.000000000000000000
+    Width = 389.000000000000000000
+    inherited pnlAlign: TPanel
+      Position.X = 213.000000000000000000
+      inherited btnCancel: TButton
+        OnClick = btnCancelClick
+      end
+      inherited btnOk: TButton
+        Position.X = 6.000000000000000000
+        Position.Y = 8.000000000000000000
+        Visible = False
+      end
+    end
+    inherited Line2: TLine
+      Width = 389.000000000000000000
+    end
+    inherited Line4: TLine
+      Width = 389.000000000000000000
+    end
+  end
+  object pnlPrcLocation: TPanel
+    Align = alTop
+    Height = 94.000000000000000000
+    Position.Y = 39.000000000000000000
+    StyleLookup = 'backgroundstyle'
+    Width = 395.000000000000000000
+    TabOrder = 2
+    object tvPrcLocation: TTreeView
+      Height = 88.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 3.000000000000000000
+      TabOrder = 0
+      Width = 386.000000000000000000
+    end
+  end
+  object Panel3: TPanel
+    Align = alTop
+    Height = 57.000000000000000000
+    Position.Y = 133.000000000000000000
+    StyleLookup = 'backgroundstyle'
+    Width = 395.000000000000000000
+    TabOrder = 3
+    object Label1: TLabel
+      Height = 13.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 26.000000000000000000
+      Text = 'Total script size:'
+      Width = 90.000000000000000000
+    end
+    object lblTotalSize: TLabel
+      Height = 13.000000000000000000
+      Position.X = 97.000000000000000000
+      Position.Y = 26.000000000000000000
+      Text = '940 Kb'
+      Width = 81.000000000000000000
+      WordWrap = False
+    end
+    object Label3: TLabel
+      Height = 13.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 44.000000000000000000
+      Text = 'Total processed:'
+      Width = 91.000000000000000000
+    end
+    object lblTotalDone: TLabel
+      Height = 13.000000000000000000
+      Position.X = 97.000000000000000000
+      Position.Y = 44.000000000000000000
+      Text = '257 Kb'
+      Width = 84.000000000000000000
+      WordWrap = False
+    end
+    object Label5: TLabel
+      Height = 13.000000000000000000
+      Position.X = 185.000000000000000000
+      Position.Y = 26.000000000000000000
+      Text = 'Total % done:'
+      Width = 78.000000000000000000
+    end
+    object lblTotalPctDone: TLabel
+      Height = 13.000000000000000000
+      Position.X = 266.000000000000000000
+      Position.Y = 26.000000000000000000
+      Text = '27%'
+      Width = 100.000000000000000000
+      WordWrap = False
+    end
+    object Label2: TLabel
+      Height = 13.000000000000000000
+      Position.X = 185.000000000000000000
+      Position.Y = 44.000000000000000000
+      Text = 'Total errors:'
+      Width = 75.000000000000000000
+    end
+    object lblTotalErrors: TLabel
+      Height = 13.000000000000000000
+      Position.X = 266.000000000000000000
+      Position.Y = 44.000000000000000000
+      Text = '23'
+      Width = 78.000000000000000000
+      WordWrap = False
+    end
+    object pbPrcMain: TProgressBar
+      Height = 17.000000000000000000
+      Max = 1000.000000000000000000
+      Orientation = orHorizontal
+      Position.X = 5.000000000000000000
+      Position.Y = 3.000000000000000000
+      Width = 386.000000000000000000
+    end
+  end
+  object pnlPrcOutput: TPanel
+    Align = alClient
+    Height = 262.000000000000000000
+    StyleLookup = 'backgroundstyle'
+    Width = 395.000000000000000000
+    TabOrder = 4
+    object lbPrcOutput: TListBox
+      Height = 251.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 6.000000000000000000
+      TabOrder = 0
+      Width = 384.000000000000000000
+      ItemHeight = 13.000000000000000000
+      DefaultItemStyles.ItemStyle = ''
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Text = '1'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 13.000000000000000000
+        Text = '2'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 26.000000000000000000
+        Text = '3'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 39.000000000000000000
+        Text = '4'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 52.000000000000000000
+        Text = '5'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 65.000000000000000000
+        Text = '6'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 78.000000000000000000
+        Text = '7'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 91.000000000000000000
+        Text = '8'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 104.000000000000000000
+        Text = '9'
+        Width = 380.000000000000000000
+      end
+      object TListBoxItem
+        Height = 13.000000000000000000
+        Position.Y = 117.000000000000000000
+        Text = '0'
+        Width = 380.000000000000000000
+      end
+    end
+  end
+  object Timer1: TTimer
+    Interval = 200
+    OnTimer = Timer1Timer
+    Left = 320
+    Top = 230
+  end
+end

@@ -1,0 +1,186 @@
+inherited frmFDGUIxFMXAsyncExecute: TfrmFDGUIxFMXAsyncExecute
+  Left = 0
+  Top = 0
+  Caption = 'FireDAC Working'
+  BorderStyle = bsNone
+  ClientHeight = 155
+  ClientWidth = 263
+  Transparency = True
+  TopMost = True
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnClose = FormClose
+  OnActivate = FormActivate
+  OnKeyDown = FormKeyDown
+  StyleBook = StyleBook1
+  Left = 0
+  Top = 0
+  inherited pnlTop: TPanel
+    Width = 263.000000000000000000
+    Margins.Rect = '(3,0,3,0)'
+    Visible = False
+    inherited Image2: TImage
+      Position.Point = '(1,1)'
+      Bitmap.PNG = {
+        89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+        F4000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+        00206348524D00007A26000080840000FA00000080E8000075300000EA600000
+        3A98000017709CBA513C000003A4494441545847ED56EB4B53611CEE4FE84FF0
+        5B441785A2A0A04EF921AC28922082E8C38CB4A56DB48995D76DAD559B5B5AEE
+        D2C215917767664E4DEB14B9962E9BB6D1BC6F87B9CD79D9716DE105E4E9CC2E
+        60E5B6C22268071E0E2FEF39FC9EF7797FCFFBBC6BD6C49FB8027105FE3505BC
+        349D60B55A1DB5B5B5509695A15826835C2E8752A984AEBC1C55151578A8D7A3
+        ADA5052F9E93307775C1FEDE0EA7D3898989498442212C2C2CC0EFF7A3B7B717
+        EDEDEDA8AAAE8656AB75E874BA84A8EB75B95C445B6B2BA4D7AF83CFE3E10C9B
+        8DCCCCB3E0F3F9C8CFCB87442C46894281DB1A0D1EDCBF8FC74D4D30BFE981BD
+        7F002EB71B810F4104431FE11A73A3F3D52BE81B1E4173A71C327909542A1541
+        E7AC8B4CC26C36132D06C3AA139016DF80442225A6B3D7174554E12F10D0D19C
+        C4B52B92F80B04C849DE06624502169329C1D0D86C914965E0723860A5B1C062
+        B1C0667A81779E87FCDCDCCF7D7043813BB735A8611AECD93312DDDD668C989E
+        60A2410AB7DB839EB76F515B578F9BB79428281242201693969C64C27F692722
+        12F8E2023A561774332EB05A6DA09AB5F05F3E8269553AE6E6E6303935B5CC05
+        15AA6BF454DE5E0B5D74085E4E04057ED505067D3586E56998111C81BF2815E3
+        374F2D734173D53D90920C780A0E22203A064FF60E3856AB071AD45238F20E20
+        70F9187CB9FBE0BDB007AEC214F8B47CB84B4E634C988A69A6F007F1714C31EF
+        F0BC332B895C1517348B3298A229A005A9CCAA76C1CDDFB984E98243DF309997
+        026F0EF16D8EE26EC3507A04F9C3CCA2B9402A2AC46B5E0AFC82A318BF980CD7
+        F9ED31C1C9D90A7BFA86C867409880C56259FBB8B1918CE402FDB9C3183DB70D
+        4ECE969830C84E447DD64152A150ACECFFAFFBE2F3F992FAFAFAA2BAE0A95A02
+        1B7B2B463313E1C84AFA0143ECCDE84FDF0493E024EA746AA8351A3AE62C88F5
+        28AED469D1C5DF8F818C8D183EBB6909F6EC6450350A8CBE34A093ECF8210BA2
+        8651B41EF85918BD29BB045BDA7A0C9E6170E5C44FC3E86B16FC1102E134B4B6
+        D6E11D7737FAC5BF490040120382A2286EAC5BF07D1C53C303703ED4AEA8C093
+        8E0E6EB846B8D6322516171715814088A4A831D26EEFA78D4623EEEAEE42C65C
+        4684221184422113A5579971314A4B4BA1516B96E62B2B2AD1C4DC073A8D26F4
+        587A611F1864EE011E78BCE3181A1E81D1F41A2D6DEDA8A96F6072410F9BED3D
+        3DE2A4C8999900C95C5AB851B7E3FB0FC2CC676767896030B8049AA6BFE0F338
+        3C373F3FBF7C75BF5C25FE435C81FF4D814F9164175BE5ECC37F000000004945
+        4E44AE426082}
+    end
+    inherited lblPrompt: TLabel
+      Position.Point = '(35,11)'
+    end
+    inherited Line1: TLine
+      Position.Point = '(3,37)'
+      Width = 257.000000000000000000
+    end
+    inherited Line3: TLine
+      Position.Point = '(3,38)'
+      Width = 257.000000000000000000
+    end
+  end
+  inherited pnlButtons: TPanel
+    Position.Point = '(0,151)'
+    Width = 263.000000000000000000
+    Margins.Rect = '(3,0,3,0)'
+    Visible = False
+    inherited pnlAlign: TPanel
+      Position.Point = '(89,2)'
+      Margins.Rect = '(5,8,5,5)'
+      inherited btnCancel: TButton
+        Position.Point = '(91,8)'
+      end
+      inherited btnOk: TButton
+        Position.Point = '(6,8)'
+        Padding.Rect = '(0,0,10,0)'
+      end
+    end
+    inherited Line2: TLine
+      Position.Point = '(3,0)'
+      Width = 257.000000000000000000
+    end
+    inherited Line4: TLine
+      Position.Point = '(3,1)'
+      Width = 257.000000000000000000
+    end
+  end
+  object pnlBlur: TPanel
+    Align = alClient
+    Width = 263.000000000000000000
+    Height = 155.000000000000000000
+    Opacity = 0.600000023841857900
+    StyleLookup = 'backgroundstyle'
+    TabOrder = 2
+    object rectBorder: TRectangle
+      StyleName = 'backgroundstyle'
+      Align = alClient
+      Width = 263.000000000000000000
+      Height = 155.000000000000000000
+      Margins.Rect = '(5,5,5,5)'
+      Fill.Color = claNull
+      StrokeThickness = 5.000000000000000000
+      XRadius = 15.000000000000000000
+      YRadius = 15.000000000000000000
+      object aniProgress: TAniIndicator
+        Align = alLeft
+        Enabled = True
+        Position.Point = '(5,44)'
+        Width = 50.000000000000000000
+        Height = 46.000000000000000000
+        StyleLookup = 'labelstyle'
+        TabOrder = 0
+      end
+      object lblText: TLabel
+        Align = alClient
+        Position.Point = '(60,44)'
+        Width = 198.000000000000000000
+        Height = 46.000000000000000000
+        Padding.Rect = '(5,0,0,0)'
+        TabOrder = 1
+        Text = 'Please wait, application is busy...'
+      end
+      object lblTitle: TLabel
+        Align = alTop
+        Position.Point = '(5,5)'
+        Width = 253.000000000000000000
+        Height = 39.000000000000000000
+        TabOrder = 2
+        Font.Size = 14.000000000000000000
+        Font.Style = [fsBold]
+        TextAlign = taCenter
+        Text = 'FireDAC Working'
+      end
+      object pnlBottom: TPanel
+        Align = alMostBottom
+        Position.Point = '(5,90)'
+        Width = 253.000000000000000000
+        Height = 60.000000000000000000
+        StyleLookup = 'pnlBottomStyle1'
+        TabOrder = 3
+        object btnCancel2: TButton
+          Align = alClient
+          Position.Point = '(25,15)'
+          Width = 203.000000000000000000
+          Height = 30.000000000000000000
+          Padding.Rect = '(25,15,25,15)'
+          OnClick = btnCancelClick
+          TabOrder = 0
+          Text = 'Cancel'
+        end
+      end
+    end
+  end
+  object tmrDelay: TTimer
+    OnTimer = tmrDelayTimer
+    Left = 24
+    Top = 8
+  end
+  object StyleBook1: TStyleBook
+    Resource.Strings = (
+      'object _1: TLayout'
+      '  Align = alClient'
+      '  Position.Point = '#39'(0,33)'#39
+      '  Width = 842.000000000000000000'
+      '  Height = 814.000000000000000000'
+      '  object TRectangle'
+      '    StyleName = '#39'pnlBottomStyle1'#39
+      '    Position.Point = '#39'(396,382)'#39
+      '    Width = 50.000000000000000000'
+      '    Height = 50.000000000000000000'
+      '    HitTest = False'
+      '    Fill.Color = claNull'
+      '    Stroke.Color = claNull'
+      '  end'
+      'end')
+  end
+end
